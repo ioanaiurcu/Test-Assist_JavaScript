@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel=" icon" href="favicon/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="menu">
+          <li><a href="homePage.html">Home</a></li>
+          <li><a href="contactPage.html">Contact</a></li>
+          <li><a href="aboutPage.html">About Page</a></li>
+        </ul>
+        <i class="fa fa-facebook" id="facebook"></i>
+        <i class="fa fa-instagram" id="instagram"></i>
+        <i class="fa fa-envelope" id="mail"></i>
+      </nav>
+    </header>
+    <br />
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" pattern="[A-Za-z]+$" /><br /><br />
+      <label for="surname">Surname</label>
+      <input
+        type="text"
+        id="surname"
+        placeholder="Enter your surname"
+        pattern="[A-Za-z]+$"
+      /><br /><br />
+      <label for="number">Phone Number</label>
+      <input
+        type="text"
+        id="number"
+        placeholder="Enter your phone number"
+        pattern="^(\+0?1\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$+$"
+      /><br /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email address"
+        pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$+$"
+      /><br /><br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <footer>
+      <p id="internship">Internship 2022</p>
+      <p id="author">Created by Iurcu Ioana</p>
+    </footer>
+  </body>
+</html>

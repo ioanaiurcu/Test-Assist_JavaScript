@@ -1,0 +1,66 @@
+header {
+  position: sticky;
+  height: 75px;
+  background-color: white;
+  border-bottom: 4px solid #39b2cc;
+  color: #444;
+  font-size: 16px;
+}
+nav {
+  position: sticky;
+}
+#facebook,
+#instagram,
+#mail {
+  float: right;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#menu {
+  display: inline-block;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ededed;
+  height: 40px;
+  width: 100%;
+  color: #515356;
+}
+#internship,
+#author {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+}
+#author {
+  float: right;
+}
+form {
+  padding: 10px;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+#aboutPage {
+  text-align: center;
+  padding: 10%;
+}
+ul {
+  list-style-type: none;
+  font-size: 16px;
+}
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+table {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
